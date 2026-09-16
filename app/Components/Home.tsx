@@ -53,7 +53,7 @@ export default function Home() {
           <div className="flex h-20 items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="relative w-10 h-10 shrink-0">
-                <Image src="/logo.jpeg" alt="Rvest" fill className="object-contain" />
+                <Image src="/logo.jpeg" alt="Rvest" fill className="object-contain" unoptimized />
               </div>
               <div className="leading-tight">
                 <p className="font-display font-semibold text-lg" style={{ color: INK }}>
@@ -324,7 +324,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex justify-center mb-4 opacity-70">
             <div className="relative w-12 h-12">
-              <Image src="/logo.jpeg" alt="Rvest" fill className="object-contain" />
+              <Image src="/logo.jpeg" alt="Rvest" fill className="object-contain" unoptimized/>
             </div>
           </div>
           <p className="font-display italic" style={{ color: INK }}>
